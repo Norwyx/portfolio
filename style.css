@@ -3,7 +3,7 @@
     --main-blue: #148EEB;
     --darkest-blue: #041C2F;
 
-    --ff-lato: 'Lato', sans-serif;;
+    --ff-lato: 'Lato', sans-serif;
 }
 
 html {
@@ -24,4 +24,9 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+body {
+    height: 100vh;
+    font-family: var(--ff-lato);
 }
