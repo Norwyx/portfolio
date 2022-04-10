@@ -65,7 +65,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects-section">
+        <section id="projects-section">
             <h2 class="projects-section__title">
                 Projects
             </h2>
@@ -171,6 +171,33 @@
                     </div>   
                 </div>
             </div>
+        </section>
+        <section id="contact-section">
+            <h2 class="contact-section__title">
+                Contact
+            </h2> 
+            <p class="contact-section__text">
+                Let's get in touch! Send me a message and we can start working together
+            </p>  
+            <div class="contact-section__form">
+                <form id="form" method="post" action="contact-form.php">
+                    <div class="form__left-column">
+                        <label for="name">Your name</label>
+                        <br>
+                        <input name="name" class="client-name" type="text">
+                        <br>
+                        <label for="email">Your email</label>
+                        <br>
+                        <input name="email" class="client-email" type="email">
+                    </div>
+                    <div class="form__right-column">
+                        <label for="message">Your message</label>
+                        <br>
+                        <input name="message" class="client-message" type="text">
+                    </div>
+                    <button class="form__submit-btn" type="submit" value="Submit">Send</button>
+                </form>
+            </div>  
         </section>
     </main>         
 </body>
