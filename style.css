@@ -1,0 +1,27 @@
+:root {
+    --white: #ffffff;
+    --main-blue: #148EEB;
+    --darkest-blue: #041C2F;
+
+    --ff-lato: 'Lato', sans-serif;;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
