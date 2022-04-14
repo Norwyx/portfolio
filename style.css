@@ -31,11 +31,28 @@ textarea {
 body {
     height: 100vh;
     font-family: var(--ff-lato);
+    font-size: 1rem;
 }
 
 .flex {
     display: flex;
 }
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+}
+/* .y-center {
+    align-items: center;
+}
+
+.x-center {
+    justify-content: center;
+} */
 
 /* Navbar */
 nav {
@@ -43,7 +60,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-top: 1.5rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 }
 
 .nav__logo {
@@ -68,4 +85,21 @@ nav {
 
 .nav__list a:hover {
     color: var(--dark-blue-hover);
+}
+
+/* Hero section */
+#hero-section {
+    height: 90vh;
+    background-color: var(--main-blue);
+    color: var(--white);
+}
+
+.hero-section__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.hero-section__subtitle {
+    font-size: 1.8rem;
+    font-weight: 400;
 }
