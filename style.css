@@ -270,3 +270,20 @@ input {
     box-shadow: var(--send-btn-shadow);
     border-radius: 3px;
 }
+
+/* Footer */
+footer {
+    background-color: var(--main-blue);
+    padding: 1.5rem;
+}
+
+.footer__text {
+    color: var(--white);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.footer__text a {
+    color: var(--white);
+    text-decoration: none;
+}
