@@ -287,3 +287,29 @@ footer {
     color: var(--white);
     text-decoration: none;
 }
+
+/* Responsive */
+/* 600px / 37.5rem and above */
+@media (min-width: 37.5rem) {
+    .nav__logo {
+        width: 55px;
+        margin-left: 2rem;
+    }
+
+    .nav__list {
+        gap: .8rem;
+        margin-right: 2rem;
+    }
+
+    .nav__list a {
+        font-size: 1.25rem;
+    }
+
+    .hero-section__title {
+        font-size: 3.5rem;
+    }
+    
+    .hero-section__subtitle {
+        font-size: 2rem;
+    }
+}
