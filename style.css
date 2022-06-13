@@ -6,6 +6,7 @@
     --darkest-blue: #041C2F;
 
     --dark-blue-hover: hsl(207, 84%, 60%);
+    --navbar-mobile-bg-color: hsl(206, 84%, 60%);
     --project-card-shadow: 0px 7px 31px 1px rgba(0,0,0,0.17);
     --send-btn-shadow: 0px 8px 19px 5px rgba(0,0,0,0.10);
 
@@ -22,12 +23,116 @@ html {
     box-sizing: border-box;
 }
 
-input,
-button,
-select,
-textarea {
-  margin: 0;
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
+body {
+    font-family: var(--ff-lato);
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+/* Navbar */
+header {
+    background-color: var(--white);
+    box-shadow: var(--project-card-shadow);
+}
+
+.navbar {
+    height: 4rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo {
+    width: 40px;
+}
+
+.navbar__list {
+    align-items: center;
+    gap: .2rem;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkest-blue);
+    font-weight: 800;
+}
+
+.item__link {
+    transition: .7s ease;
+}
+
+.item__link:hover {
+    color: var(--dark-blue-hover);
+}
+
+.navbar__hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger--bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    border-radius: 5px;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    background-color: var(--main-blue);
+}
+
+@media (max-width: 768px) {
+    /* Navbar functionality. Making sure the hamburger appears in devices < 768px.
+    Also making the hamburger menu switch to the cross when active
+    */
+    .navbar__hamburger {
+        display: block;
+    }
+
+    .navbar__hamburger.active .hamburger--bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .navbar__hamburger.active .hamburger--bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .navbar__hamburger.active .hamburger--bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* Making it so the navbar appears on the side when active*/
+    .navbar__list {
+        position: fixed;
+        right: -100%;
+        top: 0px;
+        height: 100vh;
+        width: 70%;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+        flex-direction: column;
+        background-color: var(--navbar-mobile-bg-color);
+        text-align: center;
+        transition: .3s ease-in;
+    }
+
+    .navbar__list.active {
+        right: 0;    
+    }
+
+    .list--item.active {
+        color: var(--white);
+    }
 }
