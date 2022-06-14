@@ -4,9 +4,10 @@
     --black: rgb(18, 18, 18);
     --main-blue: #148EEB;
     --darkest-blue: #041C2F;
+    --navbar-mobile-bg-color: #43a5ef;
 
     --dark-blue-hover: hsl(207, 84%, 60%);
-    --navbar-mobile-bg-color: hsl(206, 84%, 60%);
+    --navbar-mobile-bg-color-hover: #08395E;
     --project-card-shadow: 0px 7px 31px 1px rgba(0,0,0,0.17);
     --send-btn-shadow: 0px 8px 19px 5px rgba(0,0,0,0.10);
 
@@ -25,6 +26,7 @@ html {
 
 body {
     font-family: var(--ff-lato);
+    background-color: #148EEB;
 }
 
 .flex {
@@ -73,7 +75,7 @@ a {
 }
 
 .item__link:hover {
-    color: var(--dark-blue-hover);
+    color: var(--navbar-mobile-bg-color-hover);
 }
 
 .navbar__hamburger {
@@ -132,7 +134,13 @@ a {
         right: 0;    
     }
 
-    .list--item.active {
+    /* Changing the color of the text and the span when on the mobile menu */
+    .list--item > a {
         color: var(--white);
+        font-weight: 800;
+    }
+
+    .navbar__hamburger.active > span {
+        background-color: var(--white);
     }
 }
