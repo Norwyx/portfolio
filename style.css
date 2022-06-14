@@ -37,6 +37,9 @@ body {
     flex-direction: column;
 }
 
+/* 
+HOMEPAGE
+*/
 /* Navbar */
 header {
     background-color: var(--white);
