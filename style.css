@@ -8,6 +8,7 @@
 
     --dark-blue-hover: hsl(207, 84%, 60%);
     --navbar-mobile-bg-color-hover: #08395E;
+    --btn-hover-effect: hsl(0, 4%, 93%);
     --project-card-shadow: 0px 7px 31px 1px rgba(0,0,0,0.17);
     --send-btn-shadow: 0px 8px 19px 5px rgba(0,0,0,0.10);
 
@@ -27,6 +28,7 @@ html {
 body {
     font-family: var(--ff-lato);
     background-color: #148EEB;
+    color: var(--white);
 }
 
 .flex {
@@ -35,6 +37,15 @@ body {
 
 .column {
     flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.y-center {
+    justify-content: center;
 }
 
 /* 
@@ -95,6 +106,64 @@ a {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
     background-color: var(--main-blue);
+}
+
+/* Welcome section */
+.welcome-section {
+    height: 100vh;
+    margin-top: -1rem;
+}
+
+.welcome-section__text {
+    padding: 0 2.5rem;
+}
+
+.welcome-text__1 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--darkest-blue);
+}
+
+.welcome-text__2 {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+.welcome-text__3 {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+.welcome-text__4 {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--darkest-blue);
+    margin-bottom: .9375rem;
+}
+
+.welcome-text__5 {
+    font-weight: 300;
+    max-width: 250px;
+    margin-bottom: 2.375rem;
+}
+
+.welcome-section__btn {
+    margin: 0 2.5rem;
+    max-width: 200px;
+    height: 40px;
+    font-weight: 700;
+    background: white;
+    color: var(--darkest-blue);
+    box-shadow: var(--send-btn-shadow);
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
+}
+
+.welcome-section__btn:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-hover-effect);
 }
 
 @media (max-width: 768px) {
