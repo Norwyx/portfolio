@@ -48,6 +48,22 @@ body {
     justify-content: center;
 }
 
+.title {
+    font-size: 1.875rem;
+    font-weight: 900;
+    color: var(--white);
+    text-align: center;
+    transition: .5s;
+}
+
+.title:hover {
+    transform: scale(1.05);
+}
+
+span {
+    font-weight: 700;
+}
+
 /* 
 HOMEPAGE
 */
@@ -165,6 +181,42 @@ a {
     transform: scale(1.05);
     background-color: var(--btn-hover-effect);
 }
+
+/* About me introduction section */
+.about-me-introduction {
+    height: 100vh;
+}
+
+.about-me-introduction__content {
+    margin-top: 2.8125rem;
+    padding: 0 1.5rem;
+    gap: .9375rem;
+    font-size: .9375rem;
+}
+
+.content--text-2 {
+    max-width: 320px;
+}
+
+.arrow-icon {
+    color: var(--darkest-blue);  
+    font-size: 1rem;
+    border-radius: 50%;  
+}
+
+.about-me-introduction__btn {
+    margin-top: 2.5rem;
+    padding: .625rem .9375rem;
+    font-weight: 300;
+    color: var(--darkest-blue);
+    text-decoration: none;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: var(--send-btn-shadow);
+}
+
+
+
 
 @media (max-width: 768px) {
     /* Navbar functionality. Making sure the hamburger appears in devices < 768px.
