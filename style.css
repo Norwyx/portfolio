@@ -215,7 +215,41 @@ a {
     box-shadow: var(--send-btn-shadow);
 }
 
+/* Projects introduction section */
+.projects-introduction {
+    height: 100vh;
+}
 
+.projects-introduction__content {
+    margin-top: 1.4375rem;
+    margin-bottom: 1.875rem;
+    padding: 0 1.5rem;
+    gap: .9375rem;
+}
+
+.projects-introduction__image {
+    max-width: 500px;
+    width: 100%;
+    padding: 0 .75rem;
+    filter: drop-shadow(0px 6px 10px rgba(0, 0, 0, 0.3));
+    transition: .4s ease;
+    cursor: pointer;
+}
+
+.projects-introduction__image:hover {
+    transform: scale(1.05);
+}
+
+.projects-introduction__btn {
+    margin-top: 2.5rem;
+    padding: .8125rem 1.5rem;
+    font-weight: 300;
+    color: var(--darkest-blue);
+    text-decoration: none;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: var(--send-btn-shadow);
+}
 
 
 @media (max-width: 768px) {
