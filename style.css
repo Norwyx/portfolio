@@ -224,6 +224,7 @@ a {
     margin-top: 1.4375rem;
     margin-bottom: 1.875rem;
     padding: 0 1.5rem;
+    font-size: .9375rem;
     gap: .9375rem;
 }
 
@@ -260,6 +261,7 @@ a {
     margin-top: 5rem;
     margin-bottom: 5.625rem;
     padding: 0 1.75rem;
+    font-size: .9375rem;
     text-align: center;
 }
 
@@ -272,6 +274,17 @@ a {
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: var(--send-btn-shadow);
+}
+
+/* Footer */
+footer {
+    margin-bottom: 1.5625rem;
+    gap: 1.25rem;
+    font-weight: 400;
+}
+
+.text--link {
+    color: var(--white);
 }
 
 @media (max-width: 768px) {
