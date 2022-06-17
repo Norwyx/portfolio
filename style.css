@@ -378,9 +378,9 @@ footer {
         right: 0; 
     }
 
-/*     body.active {
+    body.active {
         overflow: hidden;
-    } */
+    }
 
     main.active {
         filter: blur(10px);
