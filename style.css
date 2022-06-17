@@ -80,6 +80,10 @@ body, main {
     transition: .3s;
 }
 
+.about-me-introduction__btn, .projects-introduction__btn, .contact-me-introduction__btn {
+    cursor: pointer;
+}
+
 /* 
 HOMEPAGE
 */
