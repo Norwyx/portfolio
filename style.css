@@ -95,6 +95,11 @@ header {
 
 .logo {
     width: 40px;
+    transition: .4s;
+}
+
+.logo:hover {
+    transform: scale(1.03);
 }
 
 .navbar__list {
