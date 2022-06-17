@@ -307,6 +307,25 @@ footer {
     font-weight: 400;
 }
 
+.footer__logos {
+    gap: 5rem;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.logos--twitter, .logos--github {
+    color: var(--white);
+    transition: .4s ease;
+}
+
+.logos--github:hover {
+    transform: scale(1.04);
+}
+
+.logos--twitter:hover {
+    transform: scale(1.04);
+}
+
 .text--link {
     color: var(--white);
 }
