@@ -64,6 +64,18 @@ span {
     font-weight: 700;
 }
 
+.btn {
+    font-weight: 700;
+    color: var(--darkest-blue);
+}
+
+.arrow-icon {
+    color: var(--darkest-blue);  
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: .3rem; 
+}
+
 /* 
 HOMEPAGE
 */
@@ -196,12 +208,6 @@ a {
 
 .content--text-2 {
     max-width: 320px;
-}
-
-.arrow-icon {
-    color: var(--darkest-blue);  
-    font-size: 1rem;
-    border-radius: 50%;  
 }
 
 .about-me-introduction__btn {
