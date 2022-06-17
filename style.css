@@ -219,6 +219,12 @@ a {
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: var(--send-btn-shadow);
+    transition: .4s;
+}
+
+.about-me-introduction__btn:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-hover-effect);   
 }
 
 /* Projects introduction section */
@@ -256,6 +262,12 @@ a {
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: var(--send-btn-shadow);
+    transition: .4s;
+}
+
+.projects-introduction__btn:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-hover-effect);   
 }
 
 /* Contact me introduction section */
@@ -280,6 +292,12 @@ a {
     background-color: var(--white);
     border-radius: 5px;
     box-shadow: var(--send-btn-shadow);
+    transition: .4s;
+}
+
+.contact-me-introduction__btn:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-hover-effect);   
 }
 
 /* Footer */
