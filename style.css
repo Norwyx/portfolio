@@ -342,6 +342,7 @@ footer {
     */
     .navbar__hamburger {
         display: block;
+        z-index: 10000;
     }
 
     .navbar__hamburger.active .hamburger--bar:nth-child(2) {
@@ -368,12 +369,21 @@ footer {
         gap: 2.5rem;
         flex-direction: column;
         background-color: var(--navbar-mobile-bg-color);
+        z-index: 10000;
         text-align: center;
         transition: .3s ease-in;
     }
 
     .navbar__list.active {
-        right: 0;    
+        right: 0; 
+    }
+
+/*     body.active {
+        overflow: hidden;
+    } */
+
+    main.active {
+        filter: blur(10px);
     }
 
     /* Changing the color of the text and the span when on the mobile menu */
