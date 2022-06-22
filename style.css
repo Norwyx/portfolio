@@ -415,63 +415,21 @@ footer {
     color: var(--white);
 }
 
-@media (max-width: 768px) {
-    /* Navbar functionality. Making sure the hamburger appears in devices < 768px.
-    Also making the hamburger menu switch to the cross when active
-    */
-    .navbar__hamburger {
-        display: block;
-        z-index: 10000;
-    }
+/* 
+ABOUT ME PAGE
+*/
+.about-me {
+    height: 70vh;
+}
 
-    .navbar__hamburger.active .hamburger--bar:nth-child(2) {
-        opacity: 0;
-    }
+.about-me__title {
+    margin: 2.1875rem 0 1.75rem 0;
+}
 
-    .navbar__hamburger.active .hamburger--bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .navbar__hamburger.active .hamburger--bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    /* Making it so the navbar appears on the side when active*/
-    .navbar__list {
-        position: fixed;
-        right: -100%;
-        top: 0px;
-        height: 100vh;
-        width: 70%;
-        justify-content: center;
-        align-items: center;
-        gap: 2.5rem;
-        flex-direction: column;
-        background-color: var(--navbar-mobile-bg-color);
-        z-index: 10000;
-        text-align: center;
-        transition: .3s ease-in;
-    }
-
-    .navbar__list.active {
-        right: 0; 
-    }
-
-    body.active {
-        overflow: hidden;
-    }
-
-    main.active {
-        filter: blur(10px);
-    }
-
-    /* Changing the color of the text and the span when on the mobile menu */
-    .list--item > a {
-        color: var(--white);
-        font-weight: 800;
-    }
-
-    .navbar__hamburger.active > span {
-        background-color: var(--white);
-    }
+.about-me__content {
+    margin-bottom: 2.1875rem;
+    padding: 0 1.5625rem;
+    gap: .9375rem;
+    font-size: .9375rem;
+    max-width: 440px;
 }
