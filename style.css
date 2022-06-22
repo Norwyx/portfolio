@@ -265,7 +265,7 @@ a {
     max-width: 200px;
     height: 40px;
     font-weight: 700;
-    background: white;
+    background: var(--white);
     color: var(--darkest-blue);
     box-shadow: var(--send-btn-shadow);
     border-radius: 5px;
@@ -426,6 +426,10 @@ ABOUT ME PAGE
     margin: 2.1875rem 0 1.75rem 0;
 }
 
+.about-me__title:hover {
+    transform: scale(1);
+}
+
 .about-me__content {
     margin-bottom: 2.1875rem;
     padding: 0 1.5625rem;
@@ -442,7 +446,11 @@ CONTACT PAGE
 }
 
 .contact__title {
-    margin: 2.5rem 0 4.375rem 0;    
+    margin: 2.5rem 0 4.375rem 0;   
+}
+
+.contact__title:hover {
+    transform: scale(1);
 }
 
 .contact__text {
@@ -464,4 +472,9 @@ CONTACT PAGE
     border-radius: 5px;
     text-align: center;
     transition: .5s;
+}
+
+.contact__btn:hover {
+    transform: scale(1.05);
+    background-color: var(--btn-hover-effect);
 }
