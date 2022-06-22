@@ -80,7 +80,7 @@ body, main {
     transition: .3s;
 }
 
-.about-me-introduction__btn, .projects-introduction__btn, .contact-me-introduction__btn {
+.about-me-introduction__btn, .projects-introduction__btn, .contact-me-introduction__btn, .contact__btn {
     cursor: pointer;
 }
 
@@ -432,4 +432,36 @@ ABOUT ME PAGE
     gap: .9375rem;
     font-size: .9375rem;
     max-width: 440px;
+}
+
+/* 
+CONTACT PAGE
+*/
+.contact {
+    height: 75vh;
+}
+
+.contact__title {
+    margin: 2.5rem 0 4.375rem 0;    
+}
+
+.contact__text {
+    margin-bottom: 4.375rem;
+    padding: 0 2.1875rem;
+    text-align: center;
+    font-size: .9375rem;
+    max-width: 420px;
+}
+
+.contact__btn {
+    margin: 0;
+    padding: 0 20px;
+    max-width: 200px;
+    height: 40px;
+    background: var(--white);
+    color: var(--darkest-blue);
+    box-shadow: var(--send-btn-shadow);
+    border-radius: 5px;
+    text-align: center;
+    transition: .5s;
 }
