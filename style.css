@@ -44,6 +44,10 @@ body {
     align-items: center;
 }
 
+.x-center {
+    align-items: center;
+}
+
 .y-center {
     justify-content: center;
 }
@@ -436,6 +440,151 @@ ABOUT ME PAGE
     gap: .9375rem;
     font-size: .9375rem;
     max-width: 440px;
+}
+
+/* 
+PROJECTS PAGE
+*/
+.projects__title {
+    margin: 1.875rem 0 1.5625rem 0;
+}
+
+.projects__content {
+    padding: 0 1.5625rem;
+    font-size: .9375rem;
+    gap: 1.5625rem;
+    max-width: 370px;
+}
+
+.content--text {
+    gap: .9375rem;
+}
+
+.skills__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 60px;
+    grid-row-gap: 15px;
+}
+
+.grid--item {
+    gap: .5rem;
+}
+
+.item-logo {
+    font-size: 1.75rem;
+}
+
+.item-text {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.projects__subtitle {
+    margin: 1.875rem 0 2rem 1.5625rem;
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.project__cards {
+    gap: 2rem;
+    margin-bottom: 2.8125rem;
+}
+
+.card {
+    margin: 0 1.25rem;
+    background-color: var(--navbar-mobile-bg-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.top--image {
+    max-width: 600px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.top--image:hover {
+    transform: scale(1.01);
+}
+
+.card__middle {
+    padding: 1.125rem 1rem 0 1rem;
+}
+
+.middle__top {
+    justify-content: space-between;
+}
+
+.top--title {
+    font-size: 1.125rem;
+    font-weight: 900;
+}
+
+.github-link {
+    font-size: 1.875rem;
+    color: var(--white);
+    transition: .4s;
+}
+
+.github-link:hover {
+    transform: scale(1.05);
+}
+
+.middle__tag {
+    padding: 8px 0 1rem 0;
+}
+
+.tag--attribute {
+    width: 5.5rem;
+    padding: .4375rem .9375rem;
+    font-size: .875rem;
+    font-weight: 900;
+    border-radius: 5px;
+    background-color: var(--white);
+    color: var(--navbar-mobile-bg-color);
+}
+
+.middle__text {
+    font-size: .875rem;
+    margin-bottom: 4.375rem;
+}
+
+.card__bottom {
+    border-top: solid 1px var(--white);
+    width: 100%;
+
+}
+
+.bottom__logos {
+    margin: .5625rem 0;
+    font-size: 1.75rem;
+    gap: 3.75rem;
+}
+
+.projects__link {
+    margin: 0 2rem;
+    margin-bottom: 4.375rem;
+    cursor: pointer;
+}
+
+.link__btn {
+    padding: .8125rem 1.5rem;
+    font-weight: 300;
+    color: var(--darkest-blue);
+    text-decoration: none;
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: var(--send-btn-shadow);
+    transition: .4s;     
+}
+
+.link__btn:hover {
+    transform: scale(1.05);  
+    background-color: var(--btn-hover-effect);
 }
 
 /* 

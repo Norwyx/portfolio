@@ -46,11 +46,11 @@
     </header> 
     <main>
         <section class="projects">
-            <h1 class="projects__title">
+            <h1 class="projects__title title">
                 Projects
             </h1>
-            <div class="projects__content">
-                <div class="content--text">
+            <div class="projects__content flex column">
+                <div class="content--text flex column">
                     <p class="content--text-10">
                         I constantly build projects to <span>strengthen</span> my skills and <span>learn</span> new things at the same time.
                     </p>
@@ -78,7 +78,7 @@
                         </li>
                         <li class="grid--item flex x-center">
                             <i class="item-logo logo-js fab fa-js"></i>
-                            <p class="item-text">Javascript (ES6+)</p>
+                            <p class="item-text">Javascript</p>
                         </li>
                         <li class="grid--item flex x-center">
                             <i class="item-logo logo-sass fab fa-sass"></i>
@@ -91,7 +91,7 @@
                 This Are Some Of My Projects:
             </p>
             <div class="project__cards flex column">
-                <div class="card-1 card">
+                <div class="card-1 card flex column center">
                     <div class="card__top">
                         <img src="../images/clipboard-landing-page-image.png" alt="Clipboard Landing Page" class="top--image image-1">
                     </div>
@@ -113,14 +113,14 @@
                             A landing page with 6 different sections, active states and responsive in all resolutions. This page was made as a Frontend Mentor challenge.
                         </div>
                     </div>
-                    <div class="card__bottom">
-                        <div class="bottom__logos">
+                    <div class="card__bottom flex center">
+                        <div class="bottom__logos flex">
                             <i class="logo-html5 fab fa-html5"></i>
                             <i class="logo-css fab fa-css3-alt"></i>
                         </div>
                     </div>
                 </div>
-                <div class="card-2 card">
+                <div class="card-2 card flex column center">
                     <div class="card__top">
                         <img src="../images/huddl-lading-page-image.png" alt="Huddle Landing Page" class="top--image image-2">
                     </div>
@@ -142,14 +142,14 @@
                             A landing page with 3 different sections, a responsive navbar, active states and responsive in all resolutions. This page was made as a Frontend Mentor challenge.
                         </div>
                     </div>
-                    <div class="card__bottom">
-                        <div class="bottom__logos">
+                    <div class="card__bottom flex center">
+                        <div class="bottom__logos flex">
                             <i class="logo-html5 fab fa-html5"></i>
                             <i class="logo-css fab fa-css3-alt"></i>
                         </div>
                     </div>
                 </div>
-                <div class="card-3 card">
+                <div class="card-3 card flex column center">
                     <div class="card__top">
                         <img src="../images/faq-accordion-image.png" alt="FAQ Accordion Page" class="top--image image-3">
                     </div>
@@ -171,14 +171,14 @@
                             A fully functional and responsive accordion with active states for each action. This page was made as a Frontend Mentor challenge.
                         </div>
                     </div>
-                    <div class="card__bottom">
-                        <div class="bottom__logos">
+                    <div class="card__bottom flex center">
+                        <div class="bottom__logos flex">
                             <i class="logo-html5 fab fa-html5"></i>
                             <i class="logo-css fab fa-css3-alt"></i>
                         </div>
                     </div>
                 </div>
-                <div class="card-4 card">
+                <div class="card-4 card flex column center">
                     <div class="card__top">
                         <img src="../images/color-flipper-image.png" alt="Color Flipper Page" class="top--image image-4">
                     </div>
@@ -197,22 +197,24 @@
                             </p>
                         </div>
                         <div class="middle__text">
-                            A two section fully responsive color flipper. First section when the background switches between six colors, and the second section where the page generates random HEX colors and sets them as a background.
+                            A two section fully responsive color flipper. First section where the background switches between six colors, and the second section where the page generates random HEX colors and sets them as a background.
                         </div>
                     </div>
-                    <div class="card__bottom">
-                        <div class="bottom__logos">
+                    <div class="card__bottom flex center">
+                        <div class="bottom__logos flex">
                             <i class="logo-html5 fab fa-html5"></i>
                             <i class="logo-css fab fa-css3-alt"></i>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="projects__link">
-                <a class="btn link--btn" href="https://github.com/Norwyx">
+            <div class="projects__link flex center">  
+                <div class="link__btn">
+                    <a class="btn link--btn" href="https://github.com/Norwyx">
                     See more
                 </a>
-                <i class="arrow-icon fas fa-arrow-right"></i>
+                <i class="flex center arrow-icon fas fa-arrow-right"></i>
+                </div>
             </div>
         </section>
         <footer class="flex column center">
