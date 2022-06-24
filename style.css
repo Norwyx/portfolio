@@ -102,6 +102,14 @@ body, main {
 HOMEPAGE
 */
 /* Navbar */
+.header-container {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    transition: .4s;
+}
+
 header {
     background-color: var(--white);
     box-shadow: var(--project-card-shadow);
