@@ -432,6 +432,7 @@ ABOUT ME PAGE
 */
 .about-me {
     height: 100vh;
+    margin-top: 2rem;
 }
 
 .about-me__title {
