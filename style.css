@@ -494,6 +494,7 @@ PROJECTS PAGE
 
 .card {
     margin: 0 1.25rem;
+    max-width: 400px;
     background-color: var(--navbar-mobile-bg-color);
     border-radius: 10px;
     overflow: hidden;
