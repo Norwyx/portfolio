@@ -10,7 +10,7 @@
     --navbar-mobile-bg-color-hover: #08395E;
     --btn-hover-effect: hsl(0, 4%, 93%);
     --project-card-shadow: 0px 7px 31px 1px rgba(0,0,0,0.17);
-    --send-btn-shadow: 0px 8px 19px 5px rgba(0,0,0,0.10);
+    --send-btn-shadow: 0px 5px 21px -6px rgba(0,0,0,0.5);
 
     --ff-lato: 'Lato', sans-serif;
 }
