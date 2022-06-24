@@ -302,7 +302,7 @@ a {
     font-size: .9375rem;
 }
 
-.content--text-2 {
+.content--text-1, .content--text-2, .content--text-3, .content--text-4 {
     max-width: 320px;
 }
 
@@ -378,6 +378,7 @@ a {
     padding: 0 1.75rem;
     font-size: .9375rem;
     text-align: center;
+    max-width: 320px;
 }
 
 .contact-me-introduction__btn {
