@@ -423,11 +423,11 @@ footer {
 ABOUT ME PAGE
 */
 .about-me {
-    height: 80vh;
+    height: 100vh;
 }
 
 .about-me__title {
-    margin: 2.1875rem 0 1.75rem 0;
+    margin: 0 0 1.75rem 0;
 }
 
 .about-me__title:hover {
