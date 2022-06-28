@@ -433,8 +433,8 @@ footer {
 ABOUT ME PAGE
 */
 .about-me {
-    height: 100vh;
-    margin-top: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
 }
 
 .about-me__title {
@@ -461,6 +461,7 @@ PROJECTS PAGE
 }
 
 .projects__content {
+    margin: auto;
     padding: 0 1.5625rem;
     font-size: .9375rem;
     gap: 1.5625rem;
@@ -568,7 +569,6 @@ PROJECTS PAGE
 .card__bottom {
     border-top: solid 1px var(--white);
     width: 100%;
-
 }
 
 .bottom__logos {
@@ -623,7 +623,6 @@ CONTACT PAGE
 }
 
 .contact__btn {
-    margin: 0;
     padding: 0 20px;
     max-width: 200px;
     height: 40px;
@@ -638,4 +637,135 @@ CONTACT PAGE
 .contact__btn:hover {
     transform: scale(1.05);
     background-color: var(--btn-hover-effect);
+}
+
+/* 
+RESPONSIVE VERSIONS 
+*/
+/* 425px / 26.5625rem */
+@media (min-width: 26.5625rem) {
+    /* 
+    Main page
+    */ 
+    .title {
+        font-size: 2rem;
+    }
+
+    .arrow-icon { 
+        font-size: 1.125rem;
+        margin-left: .5rem; 
+    }
+
+    .navbar__list {
+        font-size: 1.6875rem;
+    }
+
+    .welcome-text__1, .welcome-text__2, .welcome-text__4 {
+        font-size: 1.375rem;
+    }
+    
+    .welcome-text__3 {
+        font-size: 2.125rem;
+    }
+
+    .welcome-text__5 {
+        font-size: 1.125rem;
+        max-width: 300px;
+    }
+
+    .welcome-section__btn {
+        font-size: 1.0625rem;
+        max-width: 220px;
+        height: 45px;
+    }
+
+    .content--text-1, .content--text-2, .content--text-3, .content--text-4, .content--text-5, .content--text-6, .content--text-7, .content--text-8, .content--text-9, .content--text-10, .content--text-11 {
+        max-width: 370px;
+        font-size: 1.0625rem;
+    }
+
+    .about-me-introduction__btn, .projects-introduction__btn {
+        font-size: 1.125rem;
+    }
+
+    .contact-me-introduction__text {
+        font-size: 1.0625rem;
+        max-width: 320px;
+    }
+
+    .contact-me-introduction__btn {
+        font-size: 1.125rem;
+    }
+
+    .footer__text {
+        font-size: 1.125rem;
+    }
+
+    .footer__logos {
+        gap: 5.125rem;
+        width: 100%;
+        font-size: 3.125rem;
+    }
+
+    .projects__content {
+        max-width: 420px;
+    }
+
+    .item-logo {
+        font-size: 30px;
+    }
+    
+    .item-text {
+        font-size: 1.125rem;
+    }
+    
+    .projects__subtitle {
+        font-size: 20px;
+    }
+    
+    .grid--item {
+        gap: .7rem;
+    }
+
+    .top--title {
+        font-size: 1.25rem;
+    }
+    
+    .github-link {
+        font-size: 2rem;
+    }
+    
+    .tag--attribute {
+        width: 104px;
+        padding: .5625rem 1.0625rem;
+        font-size: 1rem;
+    }
+    
+    .middle__text {
+        font-size: 1rem;
+    }
+
+    .bottom__logos {
+        margin: .6875rem 0;
+        font-size: 1.875rem;
+    }
+    
+    .link__btn {
+        padding: .8125rem 1.5rem;
+        font-size: 1.125rem;
+    }
+
+    .contact__text {
+        padding: 0 2.1875rem;
+        text-align: center;
+        font-size: 1.0625rem;
+        max-width: 420px;
+    }
+    
+    .contact__btn {
+        padding: 0 30px;
+        max-width: 220px;
+        height: 50px;
+        font-size: 1.125rem;
+    }
 }
