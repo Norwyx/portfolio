@@ -499,7 +499,7 @@ PROJECTS PAGE
     font-weight: 900;
 }
 
-.project__cards {
+.projects__cards {
     gap: 2rem;
     margin-bottom: 2.8125rem;
 }
@@ -767,5 +767,172 @@ RESPONSIVE VERSIONS
         max-width: 220px;
         height: 50px;
         font-size: 1.125rem;
+    }
+}
+
+/* 768px / 48rem */
+@media (min-width: 48rem) {
+    /* 
+    Main page
+    */ 
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .arrow-icon { 
+        font-size: 1.4375rem;
+        margin-left: .7rem; 
+    }
+
+    .navbar__list {
+        font-size: 1.25rem;
+        gap: 1rem;
+    }
+
+    .item__link {
+        color: var(--main-blue);
+    }
+
+    .welcome-text__1, .welcome-text__2, .welcome-text__4 {
+        font-size: 1.6875rem;
+    }
+    
+    .welcome-text__3 {
+        font-size: 2.4375rem;
+    }
+
+    .welcome-text__5 {
+        font-size: 1.4375rem;
+        max-width: 350px;
+    }
+
+    .welcome-section__btn {
+        font-size: 1.375rem;
+        max-width: 270px;
+        height: 50px;
+    }
+
+    .content--text-1, .content--text-2, .content--text-3, .content--text-4, .content--text-5, .content--text-6, .content--text-7, .content--text-8, .content--text-9, .content--text-10, .content--text-11 {
+        min-width: 500px;
+        font-size: 1.25rem;
+    }
+
+    .about-me-introduction__btn, .projects-introduction__btn {
+        font-size: 1.375rem;
+    }
+
+    .about-me__content {
+        max-width: 800px;
+    }
+
+    .contact-me-introduction__text {
+        font-size: 20px;
+        max-width: 500px;
+    }
+
+    .contact-me-introduction__btn {
+        font-size: 1.4375rem;
+    }
+
+    .footer__text {
+        font-size: 1.375rem;
+    }
+
+    .footer__logos {
+        font-size: 3.4375rem;
+    }
+
+    .projects__content {
+        max-width: 800px;
+    }
+
+    .projects__subtitle {
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .content--text {
+        max-width: 600px;
+    }
+
+    .projects__cards {
+        gap: 0;
+        flex-wrap: wrap;
+        flex-direction: row;
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .projects__cards > *{
+        flex: 1 1 300px;
+    }
+
+    .card {
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .card__middle {
+        justify-content: space-between;
+        height: 300px;
+    }
+    
+    .projects__content {
+        max-width: 600px;
+    }
+
+    .item-logo {
+        font-size: 35px;
+    }
+    
+    .item-text {
+        font-size: 1.25rem;
+    }
+    
+    .projects__subtitle {
+        font-size: 1.5625rem;
+    }
+    
+    .grid--item {
+        gap: .9rem;
+    }
+
+    .top--title {
+        font-size: 1.375rem;
+    }
+    
+    .github-link {
+        font-size: 2.1875rem;
+    }
+    
+    .tag--attribute {
+        width: 110px;
+        font-size: 1.125rem;
+    }
+    
+    .middle__text {
+        font-size: 1.125rem;
+        margin-bottom: 0;
+    }
+
+    .bottom__logos {
+        font-size: 2rem;
+    }
+    
+    .link__btn {
+        padding: .8125rem 1.5rem;
+        font-size: 1.375rem;
+    }
+
+    .contact__text {
+        font-size: 1.25rem;
+        max-width: 500px;
+    }
+    
+    .contact__btn {
+        padding: 0 20px;
+        max-width: 250px;
+        height: 55px;
+        font-size: 1.375rem;
     }
 }
