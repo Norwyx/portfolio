@@ -964,3 +964,26 @@ RESPONSIVE VERSIONS
         max-width: 800px;
     }
 }
+
+/* 1440px / 90rem */
+@media (min-width: 90rem) {
+    .welcome-section__text {
+        padding-left: 9rem;
+    }
+
+    .welcome-text__1, .welcome-text__2, .welcome-text__4 {
+        font-size: 2vw;
+    }
+    
+    .welcome-text__3 {
+        font-size: 5vw;
+    }
+
+    .welcome-text__5 {
+        font-size: 1.5vw;
+    }
+
+    .welcome-section__btn {
+        margin-left: 9rem;
+    }
+}
