@@ -986,4 +986,16 @@ RESPONSIVE VERSIONS
     .welcome-section__btn {
         margin-left: 9rem;
     }
+
+    .projects__cards {
+        justify-content: center;
+        align-items: center;
+        max-width: 1400px;
+        margin-bottom: 2rem;
+        gap: 2rem;
+    }
+
+    .projects__cards > *{
+        flex: 1 1 450px;
+    }
 }
