@@ -936,3 +936,31 @@ RESPONSIVE VERSIONS
         font-size: 1.375rem;
     }
 }
+
+/* 1024px / 64rem */
+@media (min-width: 64rem) {
+    .welcome-section__text {
+        padding-left: 6rem;
+    }
+
+    .welcome-text__1, .welcome-text__2, .welcome-text__4 {
+        font-size: 3vw;
+    }
+    
+    .welcome-text__3 {
+        font-size: 6vw;
+    }
+
+    .welcome-text__5 {
+        font-size: 2.5vw;
+        max-width: 450px;
+    }
+
+    .welcome-section__btn {
+        margin-left: 6rem;
+    }
+
+    .projects-introduction__image {
+        max-width: 800px;
+    }
+}
