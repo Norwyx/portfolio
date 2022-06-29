@@ -790,7 +790,7 @@ RESPONSIVE VERSIONS
     }
 
     .item__link {
-        color: var(--main-blue);
+        color: var(--darkest-blue);
     }
 
     .welcome-text__1, .welcome-text__2, .welcome-text__4 {
@@ -939,6 +939,19 @@ RESPONSIVE VERSIONS
 
 /* 1024px / 64rem */
 @media (min-width: 64rem) {
+    .navbar{
+        padding: 0 1.5rem;
+    }
+    
+    .navbar__list{
+        gap: 2rem;
+    }
+    
+    .item__link {
+        color: var(--darkest-blue);
+        font-size: 22px;
+    }
+    
     .welcome-section__text {
         padding-left: 6rem;
     }
@@ -969,6 +982,19 @@ RESPONSIVE VERSIONS
 @media (min-width: 90rem) {
     .welcome-section__text {
         padding-left: 9rem;
+    }
+
+    .navbar{
+        padding: 0 2rem;
+    }
+    
+    .navbar__list{
+        gap: 2.5rem;
+    }
+
+    .item__link {
+        color: var(--darkest-blue);
+        font-size: 1.5rem;
     }
 
     .welcome-text__1, .welcome-text__2, .welcome-text__4 {
